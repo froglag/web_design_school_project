@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="482aa83e-02d4-4766-b5b8-57a423203127" name="Changes" comment="Rename for better inspection, _mobile -&gt; for mobile version">
+    <list default="true" id="482aa83e-02d4-4766-b5b8-57a423203127" name="Changes" comment="Git test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Dikiyy"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="38e6bf41-8319-4712-bc46-4337edb2a77d" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Dikiyy/web_design.git",
+    "accountId": "38e6bf41-8319-4712-bc46-4337edb2a77d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -75,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730317286074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Git test">
+      <option name="closed" value="true" />
+      <created>1730317883319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730317883319</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rename for better inspection, _mobile -&gt; for mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename for better inspection, _mobile -&gt; for mobile version" />
+    <MESSAGE value="Git test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git test" />
   </component>
 </project>
