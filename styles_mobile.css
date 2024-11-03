@@ -272,3 +272,59 @@ nav ul li a:hover {
         margin: 0 auto;
     }
 }
+/* Category Page Grid Layout */
+.category-content h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.category-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.category-card img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.category-card h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.category-card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.back-button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
