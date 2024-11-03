@@ -230,3 +230,45 @@ body.favorite-page .article-item {
 body.favorite-page .favorite-icon.filled:hover {
     color: #ff6347;
 }
+/* Improved Navigation Styles */
+header {
+    background-color: #f8f9fa;
+    padding: 15px 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+/* Web Layout for About Us Section */
+@media (min-width: 768px) {
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        padding: 30px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}
