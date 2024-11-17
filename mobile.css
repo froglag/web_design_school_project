@@ -44,6 +44,8 @@ body {
   justify-content: space-between;
   padding: 0.5rem;
   height: 70px;
+  max-width: none;
+  width: 100%;
 }
 
 #main-nav .logo {
