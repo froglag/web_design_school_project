@@ -16,14 +16,24 @@
 <nav id="main-nav">
     <div class="container">
         <div class="logo">
-            <object type="image/svg+xml" data="resources/logo.svg" aria-label="News Today Logo"></object>
+            <a href="index.html">
+                <img src="resources/logo.svg" alt="News Today Logo">
+            </a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search..." aria-label="Search">
+            <button type="submit" aria-label="Search Button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="current">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contacts</a></li>
             <li><a href="help.html">Help</a></li>
-            <li><a href="join.html" class="current">Join</a></li>
         </ul>
     </div>
 </nav>
@@ -100,7 +110,7 @@
         <div>
             <h2>Join the Community</h2>
             <p>Connect with like-minded individuals who share your interests.</p>
-            <a href="#" class="btn btn-secondary">Join Now</a>
+            <a href="join.html" class="btn btn-secondary">Join Now</a>
         </div>
         <div>
             <p>© 2024 News Today. All Rights Reserved.</p>
