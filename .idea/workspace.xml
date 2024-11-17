@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240c6b0e-16bf-4ce2-93a0-1c473dc06fcf" name="Changes" comment="Bad feedback from teacher, rollback">
-      <change afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/privacy_policy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ent.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sport.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tech.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/trump.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
