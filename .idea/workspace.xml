@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="482aa83e-02d4-4766-b5b8-57a423203127" name="Changes" comment="Rename for better inspection, _mobile -&gt; for mobile version">
+    <list default="true" id="482aa83e-02d4-4766-b5b8-57a423203127" name="Changes" comment="JE TO PIZDEC REBYATA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_us_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us_mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/category_mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_us_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us_mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crime_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/crime_mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domestic_policy_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/domestic_policy_mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/favorite_mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foreign_policy_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/foreign_policy_mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good_news_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/good_news_mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/most_popular_mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/most_popular_mobile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dikiyy&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="38e6bf41-8319-4712-bc46-4337edb2a77d" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dikiyy/web_design.git&quot;,
+    &quot;accountId&quot;: &quot;38e6bf41-8319-4712-bc46-4337edb2a77d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -33,9 +57,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JavaScript Debug.category_web.html.executor": "Run",
+    "JavaScript Debug.index_mobile.html.executor": "Run",
     "JavaScript Debug.latest_articles_home.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "web-v",
     "last_opened_file_path": "C:/Users/diart/OneDrive/Рабочий стол/prototip",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -47,6 +72,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="index_mobile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/prototip/index_mobile.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index_mobile.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,6 +101,8 @@
       <workItem from="1730115516051" duration="7423000" />
       <workItem from="1730127372336" duration="1131000" />
       <workItem from="1730315751320" duration="415000" />
+      <workItem from="1730647964573" duration="5018000" />
+      <workItem from="1730821081415" duration="4999000" />
     </task>
     <task id="LOCAL-00001" summary="Rename for better inspection, _mobile -&gt; for mobile version">
       <option name="closed" value="true" />
@@ -75,7 +112,87 @@
       <option name="project" value="LOCAL" />
       <updated>1730317286074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Git test">
+      <option name="closed" value="true" />
+      <created>1730317883319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730317883319</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Git test">
+      <option name="closed" value="true" />
+      <created>1730318138980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730318138980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Git test">
+      <option name="closed" value="true" />
+      <created>1730318159056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730318159056</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Git test">
+      <option name="closed" value="true" />
+      <created>1730318198365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730318198365</updated>
+    </task>
+    <task id="LOCAL-00006" summary="rename reference styles to styles_mobile.css">
+      <option name="closed" value="true" />
+      <created>1730648196469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730648196469</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Web version to about_us_web.html">
+      <option name="closed" value="true" />
+      <created>1730649070252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730649070252</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Web version to category_web.html">
+      <option name="closed" value="true" />
+      <created>1730649179959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730649179959</updated>
+    </task>
+    <task id="LOCAL-00009" summary="web version_v01">
+      <option name="closed" value="true" />
+      <created>1730652274281</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730652274281</updated>
+    </task>
+    <task id="LOCAL-00010" summary="BAck Button logic">
+      <option name="closed" value="true" />
+      <created>1730822610584</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730822610584</updated>
+    </task>
+    <task id="LOCAL-00011" summary="JE TO PIZDEC REBYATA">
+      <option name="closed" value="true" />
+      <created>1730825875463</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730825875463</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +200,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rename for better inspection, _mobile -&gt; for mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename for better inspection, _mobile -&gt; for mobile version" />
+    <MESSAGE value="Git test" />
+    <MESSAGE value="rename reference styles to styles_mobile.css" />
+    <MESSAGE value="Web version to about_us_web.html" />
+    <MESSAGE value="Web version to category_web.html" />
+    <MESSAGE value="web version_v01" />
+    <MESSAGE value="BAck Button logic" />
+    <MESSAGE value="JE TO PIZDEC REBYATA" />
+    <option name="LAST_COMMIT_MESSAGE" value="JE TO PIZDEC REBYATA" />
   </component>
 </project>
