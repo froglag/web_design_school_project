@@ -2,9 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | News Today</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+<!-- Navigation -->
+<nav id="main-nav">
+    <div class="container">
+        <div class="logo">
+            <object type="image/svg+xml" data="resources/logo.svg" aria-label="News Today Logo"></object>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search..." aria-label="Search">
+            <button type="submit" aria-label="Search Button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+</nav>
 
+<!-- About Section -->
+<main id="about-content" class="py-2">
+    <div class="container">
+        <header class="about-header">
+            <h1>About Us</h1>
+            <p>Learn more about our mission, values, and team.</p>
+        </header>
+        <section class="about-body">
+            <h2>Our Mission</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non est a sapien vehicula pharetra a ac eros. Fusce tempor enim vel neque convallis facilisis.</p>
+            <p>Our mission is to provide the latest and most accurate news to keep you informed and empowered in a rapidly changing world.</p>
+
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Integrity:</strong> We uphold the highest standards of journalistic integrity.</li>
+                <li><strong>Accuracy:</strong> Our goal is to provide fact-checked and reliable information.</li>
+                <li><strong>Community:</strong> We believe in building a platform that fosters meaningful connections.</li>
+            </ul>
+
+            <h2>Meet the Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <object type="image/svg+xml" data="resources/team1.svg" aria-label="Team Member"></object>
+                    <h3>John Doe</h3>
+                    <p>Editor-in-Chief</p>
+                </div>
+                <div class="team-member">
+                    <object type="image/svg+xml" data="resources/team2.svg" aria-label="Team Member"></object>
+                    <h3>Jane Smith</h3>
+                    <p>Senior Journalist</p>
+                </div>
+                <div class="team-member">
+                    <object type="image/svg+xml" data="resources/team3.svg" aria-label="Team Member"></object>
+                    <h3>Sam Lee</h3>
+                    <p>Technology Reporter</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+        <div>
+            <object type="image/svg+xml" data="resources/main_logo.svg" aria-label="News Today Logo"></object>
+            <p>Stay ahead with News Today - your source for the latest global updates.</p>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>Get the latest updates delivered straight to your inbox.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe" class="btn btn-primary">
+            </form>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <ul class="list">
+                <li><a href="help.html">Help and Support</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Join the Community</h2>
+            <p>Connect with like-minded individuals who share your interests.</p>
+            <a href="#" class="btn btn-secondary">Join Now</a>
+        </div>
+        <div>
+            <p>© 2024 News Today. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
