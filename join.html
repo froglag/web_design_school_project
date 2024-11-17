@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Community | News Today</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<nav id="main-nav">
+    <div class="container">
+        <div class="logo">
+            <object type="image/svg+xml" data="resources/logo.svg" aria-label="News Today Logo"></object>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="join.html" class="current">Join</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Join Section -->
+<main id="join-content" class="py-2">
+    <div class="container">
+        <header class="join-header">
+            <h1>Join the Community</h1>
+            <p>Be part of an engaged and dynamic group of people sharing the latest updates and insights.</p>
+        </header>
+
+        <section class="join-form">
+            <h2>Create Your Account</h2>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Create a password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Join Now</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="benefits">
+            <h2>Why Join Us?</h2>
+            <ul>
+                <li>Exclusive access to community discussions.</li>
+                <li>Stay updated with the latest news and trends.</li>
+                <li>Network with like-minded individuals.</li>
+                <li>Get personalized recommendations and insights.</li>
+            </ul>
+        </section>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+        <div>
+            <object type="image/svg+xml" data="resources/main_logo.svg" aria-label="News Today Logo"></object>
+            <p>Stay ahead with News Today - your source for the latest global updates.</p>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>Get the latest updates delivered straight to your inbox.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe" class="btn btn-primary">
+            </form>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <ul class="list">
+                <li><a href="help.html">Help and Support</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Join the Community</h2>
+            <p>Connect with like-minded individuals who share your interests.</p>
+            <a href="#" class="btn btn-secondary">Join Now</a>
+        </div>
+        <div>
+            <p>© 2024 News Today. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
