@@ -2,9 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Today | Article</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+<!-- Navigation -->
+<nav id="main-nav">
+    <div class="container">
+        <div class="logo">
+            <object type="image/svg+xml" data="resources/logo.svg" aria-label="News Today Logo"></object>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search..." aria-label="Search">
+            <button type="submit" aria-label="Search Button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+</nav>
 
+<!-- Article Content -->
+<main id="article-content" class="py-2">
+    <div class="container">
+        <header class="article-header">
+            <h1>Lorem Ipsum Dolor Sit Amet</h1>
+            <p class="meta">Published on <time datetime="2024-11-17">November 17, 2024</time> by <a href="#">Author Name</a></p>
+        </header>
+        <figure class="article-image">
+            <object type="image/svg+xml" data="resources/sample-article.svg" aria-label="Article Image"></object>
+        </figure>
+        <section class="article-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien eu bibendum consectetur, dolor tortor consectetur turpis, eu consectetur lorem libero sit amet ligula. Integer vitae odio a mi varius posuere. Aenean id turpis nulla.</p>
+            <p>Nam facilisis, tortor et posuere blandit, sapien neque dapibus nisl, eget laoreet justo metus ut velit. Donec tincidunt, nisi at fermentum bibendum, enim odio gravida ipsum, vitae vehicula turpis nisi et dolor. Suspendisse potenti.</p>
+            <h2>Subheading</h2>
+            <p>Ut fringilla velit vel tellus vehicula, non congue risus facilisis. Praesent at convallis lacus. Fusce et nulla felis. Integer non dapibus neque. Nullam ut feugiat tortor, sit amet vehicula ligula. Aenean sit amet est vel libero malesuada luctus.</p>
+            <blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac ornare quam.”</blockquote>
+            <p>In hac habitasse platea dictumst. Donec vestibulum libero id diam fringilla, sed lacinia mi scelerisque. Mauris id odio sit amet magna cursus gravida. Pellentesque facilisis, velit a tincidunt consectetur, eros lorem fermentum lectus, nec aliquet libero eros at nisi.</p>
+        </section>
+    </div>
+</main>
+
+<!-- Related Articles -->
+<section id="related-articles" class="py-2">
+    <div class="container">
+        <h2>Related Articles</h2>
+        <div class="articles-container">
+            <article class="card">
+                <object type="image/svg+xml" data="resources/related.svg" aria-label="Related Article 1"></object>
+                <div>
+                    <h3><a href="#">Related Article Title 1</a></h3>
+                    <p>Short description of the related article goes here...</p>
+                </div>
+            </article>
+            <article class="card">
+                <object type="image/svg+xml" data="resources/related.svg" aria-label="Related Article 2"></object>
+                <div>
+                    <h3><a href="#">Related Article Title 2</a></h3>
+                    <p>Short description of the related article goes here...</p>
+                </div>
+            </article>
+            <article class="card">
+                <object type="image/svg+xml" data="resources/related.svg" aria-label="Related Article 3"></object>
+                <div>
+                    <h3><a href="#">Related Article Title 3</a></h3>
+                    <p>Short description of the related article goes here...</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+        <div>
+            <object type="image/svg+xml" data="resources/main_logo.svg" aria-label="News Today Logo"></object>
+            <p>Stay ahead with News Today - your source for the latest global updates.</p>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>Get the latest updates delivered straight to your inbox.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe" class="btn btn-primary">
+            </form>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <ul class="list">
+                <li><a href="help.html">Help and Support</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Join the Community</h2>
+            <p>Connect with like-minded individuals who share your interests.</p>
+            <a href="#" class="btn btn-secondary">Join Now</a>
+        </div>
+        <div>
+            <p>© 2024 News Today. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
