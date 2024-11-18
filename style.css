@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform var(--transition-speed) ease;
+  padding: 10px;
 }
 
 .card object {
@@ -160,6 +161,7 @@ header p {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  gap: 10px;
 }
 
 #main-nav .logo {
@@ -245,6 +247,7 @@ footer {
   background: var(--dark-color);
   color: #fff;
   padding: 2rem 0;
+  margin-top: 2rem;
 }
 
 footer .container {
