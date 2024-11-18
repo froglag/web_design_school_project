@@ -72,6 +72,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.btn-readmore{
+  background: var(--accent-color);
+}
+
+.btn-readmore:hover{
+  background: var(--secondary-color);
+}
+
 .btn-secondary {
   background: var(--secondary-color);
 }
