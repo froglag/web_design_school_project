@@ -143,6 +143,10 @@ header p {
   margin-bottom: 1.5rem;
 }
 
+main {
+  margin-bottom: 2rem;
+}
+
 #main-nav {
   height: 120px;
   display: flex;
@@ -354,4 +358,64 @@ footer .social a {
 footer .social a:hover {
   background: var(--accent-color);
   transform: scale(1.1);
+}
+
+.contact-form {
+  border-radius: 8px;
+  margin-top: 1rem;
+  max-width: 400px; 
+}
+
+
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem; 
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem; 
+  font-family: var(--font-family);
+  transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.contact-form .form-group textarea {
+  resize: none;
+  height: 100px; 
+}
+
+.contact-form .btn {
+  align-self: center;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem; 
+  border-radius: 5px;
+  font-size: 0.9rem; 
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.contact-form .btn:hover {
+  background: var(--accent-color);
+  transform: translateY(-2px);
 }
