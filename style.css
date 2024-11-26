@@ -434,3 +434,23 @@ footer .social a:hover {
   background: var(--accent-color);
   transform: translateY(-2px);
 }
+
+.back-button :hover{
+  background: var(--accent-color);
+}
+
+.back-button button {
+  background: var(--primary-color);
+  border: none;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 5px;
+}
+
+.back-button button :hover{
+  background: var(--accent-color);
+}
+
+.fa-arrow-left {
+  font-size: 1.5rem;
+}

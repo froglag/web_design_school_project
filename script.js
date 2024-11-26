@@ -44,6 +44,45 @@ document.addEventListener("DOMContentLoaded", () => {
             nav.classList.add("compact");
         }
     });
+
+    
+    function getURLParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
+    
+    const subcategories = {
+        sport: {
+            title: "Sport",
+            description: "Explore the latest updates and insights in the world of sports, including football, basketball, and more."
+        },
+        technology: {
+            title: "Technology",
+            description: "Stay informed about the latest innovations and trends in the tech industry."
+        },
+        politics: {
+            title: "Politics",
+            description: "Get the latest news and analysis on global politics and policies."
+        },
+        entertainment: {
+            title: "Entertainment",
+            description: "Discover the newest trends and gossip in movies, music, and celebrity culture."
+        }
+    };
+    
+    const category = getURLParameter("category");
+    
+    const titleElement = document.getElementById("subcategory-title");
+    const descriptionElement = document.getElementById("subcategory-description");
+    
+    if (category && subcategories[category]) {
+        titleElement.textContent = subcategories[category].title;
+        descriptionElement.textContent = subcategories[category].description;
+    } else {
+        titleElement.textContent = "Category Not Found";
+        descriptionElement.textContent = "Please check the URL or select a valid category.";
+    }
+    
 });
 function goBack() {
     window.history.back();
