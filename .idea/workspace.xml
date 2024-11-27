@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="240c6b0e-16bf-4ce2-93a0-1c473dc06fcf" name="Changes" comment="editing">
+    <list default="true" id="240c6b0e-16bf-4ce2-93a0-1c473dc06fcf" name="Changes" comment="Styling_with photos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "diar/back__button__impl",
+    "git-widget-placeholder": "quickfixes",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -116,6 +113,9 @@
       <updated>1731869681170</updated>
       <workItem from="1731869682944" duration="2029000" />
       <workItem from="1731913184941" duration="1102000" />
+      <workItem from="1732052277313" duration="318000" />
+      <workItem from="1732706207041" duration="1494000" />
+      <workItem from="1732710000233" duration="939000" />
     </task>
     <task id="LOCAL-00005" summary="2hrsss. 2 lines of code. !">
       <option name="closed" value="true" />
@@ -133,7 +133,47 @@
       <option name="project" value="LOCAL" />
       <updated>1731879068043</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BB impl">
+      <option name="closed" value="true" />
+      <created>1732043883106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732043883106</updated>
+    </task>
+    <task id="LOCAL-00008" summary="BB impl">
+      <option name="closed" value="true" />
+      <created>1732052521626</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732052521626</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Styling">
+      <option name="closed" value="true" />
+      <created>1732707063728</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732707063728</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Styling">
+      <option name="closed" value="true" />
+      <created>1732710299736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732710299736</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Styling_with photos">
+      <option name="closed" value="true" />
+      <created>1732710890645</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732710890645</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +198,9 @@
     <MESSAGE value="Additional web pages..." />
     <MESSAGE value="2hrsss. 2 lines of code. !" />
     <MESSAGE value="editing" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing" />
+    <MESSAGE value="BB impl" />
+    <MESSAGE value="Styling" />
+    <MESSAGE value="Styling_with photos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling_with photos" />
   </component>
 </project>
