@@ -15,6 +15,11 @@
 <!-- Navigation -->
 <nav id="main-nav">
   <div class="container">
+    <div class="back-button">
+        <button onclick="goBack()" aria-label="Go Back">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+    </div>
     <div class="logo">
       <a href="index.html">
         <img src="resources/logo.svg" alt="News Today Logo">
@@ -30,71 +35,62 @@
       <span></span>
     </div>
     <ul class="nav-links">
-      <li><a href="index.html" class="current">Home</a></li>
-      <li><a href="category.html">Category</a></li>
-      <li><a href="popular.html">Popular</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contacts</a></li>
-    </ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="category.html">Category</a></li>
+        <li><a href="popular.html">Popular</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
   </div>
 </nav>
 
 <!-- Showcase -->
 <header id="showcase">
   <div class="container">
-    <h1>Latest articles</h1>
-    <p>Stay updated with the latest developments from around the world. Check out the hottest trends and important updates below.</p>
+    <h1>Breaking: Global Trends</h1>
+    <p>Discover the latest updates in global markets, politics, and technology.</p>
+    <a href="article.html" class="btn btn-readmore">Read More</a>
   </div>
 </header>
 
 <!-- Articles Section -->
 <section id="home-articles" class="py-2">
   <div class="container">
+    <h2>Editor's Picks</h2>
     <div class="articles-container">
       <article class="card">
-        <a href="article.html">
-          <object type="image/svg+xml" data="resources/related.svg"></object>
+        <a href="subcategory.html?category=entertainment">
+          <object type="image/svg+xml" data="resources/ent.svg" aria-label="Entertainment News"></object>
           <div>
-            <h3>Article Name</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien eu bibendum consectetur, dolor tortor consectetur turpis, eu consectetur lorem libero sit amet ligula. Integer vitae odio a mi varius posuere. Aenean id turpis nulla.</p>
+            <div class="category category-ent">Entertainment</div>
+            <h3>Top 5 Must-See Movies</h3>
+            <p>Discover the top blockbusters hitting theaters this season.</p>
           </div>
         </a>
       </article>
       <article class="card">
-        <a href="article.html">
-          <object type="image/svg+xml" data="resources/related.svg"></object>
-          <div>
-            <h3>Article Name</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien eu bibendum consectetur, dolor tortor consectetur turpis, eu consectetur lorem libero sit amet ligula. Integer vitae odio a mi varius posuere. Aenean id turpis nulla.</p>
-          </div>
+        <a href="subcategory.html?category=politics">
+          <object type="image/svg+xml" data="resources/trump.svg" aria-label="Politics News"></object>
+          <div class="category category-politics">Politics</div>
+          <h3>Trump in 2025</h3>
+          <p>Insights into Trump's presidency and its impact.</p>
         </a>
       </article>
       <article class="card">
-        <a href="article.html">
-          <object type="image/svg+xml" data="resources/related.svg"></object>
-          <div>
-            <h3>Article Name</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien eu bibendum consectetur, dolor tortor consectetur turpis, eu consectetur lorem libero sit amet ligula. Integer vitae odio a mi varius posuere. Aenean id turpis nulla.</p>
-          </div>
+        <a href="subcategory.html?category=technology">
+        <object type="image/svg+xml" data="resources/tech.svg" aria-label="Technology News"></object>
+        <div class="category category-tech">Technology</div>
+        <h3>AI Innovations in 2024</h3>
+        <p>Explore the future of artificial intelligence and its impact.</p>
         </a>
       </article>
       <article class="card">
-        <a href="article.html">
-          <object type="image/svg+xml" data="resources/related.svg"></object>
-          <div>
-            <h3>Article Name</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien eu bibendum consectetur, dolor tortor consectetur turpis, eu consectetur lorem libero sit amet ligula. Integer vitae odio a mi varius posuere. Aenean id turpis nulla.</p>
-          </div>
-        </a>
-      </article>
-      <article class="card">
-        <a href="article.html">
-          <object type="image/svg+xml" data="resources/related.svg"></object>
-          <div>
-            <h3>Article Name</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien eu bibendum consectetur, dolor tortor consectetur turpis, eu consectetur lorem libero sit amet ligula. Integer vitae odio a mi varius posuere. Aenean id turpis nulla.</p>
-          </div>
-        </a>
+        <a href="subcategory.html?category=sport">
+          <object type="image/svg+xml" data="resources/sport.svg" aria-label="Sports News"></object>
+          <div class="category category-sports">Lifestyle</div>
+          <h3>Health Tips for Busy People</h3>
+          <p>Simple tips to balance work, life, and health effectively.</p>
+      </a>
       </article>
     </div>
   </div>
