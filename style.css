@@ -442,7 +442,7 @@ footer .social a:hover {
 .back-button button {
   background: var(--primary-color);
   border: none;
-  height: 4rem;
+  height: 3rem;
   width: 4rem;
   border-radius: 5px;
 }
