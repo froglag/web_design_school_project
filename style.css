@@ -483,3 +483,11 @@ footer .social a:hover {
 .fa-arrow-left {
   font-size: 1.5rem;
 }
+.btn svg {
+  display: block;
+  margin: auto;
+  width: 24px; /* Ширина SVG */
+  height: 24px; /* Высота SVG */
+  fill: none; /* Убираем заливку */
+  stroke: white; /* Цвет обводки (можно заменить) */
+}
