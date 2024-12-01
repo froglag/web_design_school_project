@@ -87,3 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function goBack() {
     window.history.back();
 }
+
+function SearchButtonAction() {
+    window.location.href = "/article.html";
+}
