@@ -388,6 +388,7 @@ footer .social a:hover {
 .footer-bottom {
   text-align: center;
   margin-top: 1rem;
+  grid-column: 1/5;
 }
 
 .footer-bottom .svg-logo {
